@@ -23,7 +23,7 @@ const DashboardLayout = ({ children }) => {
           <div className="px-4">This is dashboard header</div>
         </nav>
         {/* Page content here */}
-        {children}
+        <div className="p-4">{children}</div>
       </div>
 
       <div className="drawer-side is-drawer-close:overflow-visible">
