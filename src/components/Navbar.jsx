@@ -52,7 +52,7 @@ const Navbar = () => {
             </ul>
           </div>
           <Link href="/" className="btn btn-ghost text-xl">
-            FistNext
+            FirstNext
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
