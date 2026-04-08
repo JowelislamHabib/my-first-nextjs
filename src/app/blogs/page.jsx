@@ -71,7 +71,7 @@ const BlogsPage = () => {
         return (
           <div key={blog.id}>
             <h3 className="text-2xl font-bold">{blog.title}</h3>
-            <Link className="text-primary" href={"/"}>
+            <Link className="text-primary" href={`/blogs/${blog.id}`}>
               Show details
             </Link>
           </div>
